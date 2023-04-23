@@ -1,0 +1,2 @@
+	complexstruct.s 是在 Windows 上调用 gcc -O2 -S 编译的结果。其余两个 .s 文件均在 Linux 上编译。
+	x86-Linux-64 ABI 中，函数的前 6 个参数通过寄存器传递：rdi, rsi, rdx, rcx, r8, r9。但在 x86-Windows-64 上，前 2 个参数是 rcx, rdx。

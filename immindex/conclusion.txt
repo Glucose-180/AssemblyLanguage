@@ -1,0 +1,1 @@
+在内存操作数寻址 disp(base, index, scale) 中，base 不能是立即数（immindex.s 第 12 行），但 index 可以是立即数。
