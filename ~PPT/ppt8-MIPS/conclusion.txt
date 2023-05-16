@@ -1,1 +1,2 @@
   在 exfunction.c 中，给函数 ex 传参时，a 是 char 类型，传参后 a 所在的栈单元可能是 a 的符号扩展，但被调用者 ex 事实上只取它的最低字节。
+  在 if_branch.c 中，对于 int 类型的函数 if_branch_i，返回值 eax 确保为 1 或 0 的扩展；但对于 char 类型的函数 if_branch_c，仅保证 eax 的低字节 al 是有效的返回值。是否定义 CAST 不产生任何影响。

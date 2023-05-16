@@ -1,0 +1,1 @@
+在 Windows 64 上，struct.c 中 struct st 的 size 为 24，说明了对齐要求。
