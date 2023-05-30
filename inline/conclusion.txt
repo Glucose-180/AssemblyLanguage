@@ -1,0 +1,8 @@
+areatest.c:
+  当在 printf 中使用 %f 时，float 类型的变量会被转换为 double 再传参。在 x86-32-Linux 上，浮点参数通过栈传递。
+
+jumptest3.c:
+  在尝试从一个 asm 段到另一个 asm 段的跳转（end）时还是出了问题，虽然运行正常。两段内联汇编代码中还有一条指令。
+
+jumptest2.c:
+  使用带方向 f（forward）的跳转标签时，目标符号应为数字。把 0f 改成 a0f，并把标签改成 a0，会出问题（链接器报错）。
