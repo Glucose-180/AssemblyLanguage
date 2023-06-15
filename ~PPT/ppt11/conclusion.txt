@@ -1,0 +1,1 @@
+在 Ubuntu 上，memcpy_3 比 memcpy_2 反而要慢；在 Windows 上，memcpy_3 比 memcpy_2 略快。库函数的 memcpy 与 memcpy_2 相当！（都是在 gcc -O2 优化下）
