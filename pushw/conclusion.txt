@@ -1,0 +1,1 @@
+pushw 使 esp 减 2，popw 使 esp 加 2。
