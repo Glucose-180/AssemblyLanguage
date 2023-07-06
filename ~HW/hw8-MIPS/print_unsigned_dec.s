@@ -4,7 +4,7 @@
 print_unsigned:
 	addiu	$sp, $sp, -16
 	addiu	$t4, $zero, 10	# divisior
-	sw	$a0, 10($sp)	# save arg: x
+
 	addiu	$t2, $sp, 11	# t2 is pointer
 	addiu	$t3, $t2, -1	# t3 moves
 l0:

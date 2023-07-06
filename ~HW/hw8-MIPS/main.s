@@ -1,6 +1,6 @@
 .section .data
 dt:
-	.int 0x0fff
+	.int 0x9812abcd
 .section .text
 .globl	__start
 __start:
